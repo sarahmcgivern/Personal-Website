@@ -1,0 +1,110 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  background: url("../images/rust-copy3.png") no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+
+/* h3 {
+  float: left;
+}
+
+.nav {
+  float: right;
+}
+
+.masthead-brand {
+  font-size: 30px;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.inner-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: black;
+} */
+
+.inner {
+  margin-top: 15%;
+}
+
+h1 {
+  font-size: 10vw;
+  text-shadow: -2px -2px 0 rgb(109, 100, 89);
+}
+
+.lead {
+  font-size: 6vw;
+  margin-left: -4.25%;
+  text-shadow: -1.75px -1.75px 0 rgb(109, 100, 89);
+  color: white;
+}
+
+.contact {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-around;
+}
+
+i {
+  font-size: 4vw;
+  color: white;
+  text-shadow: -1px -1px 0 rgb(55, 50, 44);
+}
+
+p {
+  font-size: 4vw;
+  text-shadow: -0.75px -0.75px 0 rgb(55, 50, 44);
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .inner {
+    margin-top: 40%;
+  }
+
+  .contact {
+    margin-top: 27%;
+  }
+
+  i,
+  p {
+    font-size: 6vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+
+  .inner {
+    margin-top: 50%;
+  }
+
+  .contact {
+    margin-top: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+  }
+
+  i,
+  p {
+    font-size: 6vw;
+  }
+}
