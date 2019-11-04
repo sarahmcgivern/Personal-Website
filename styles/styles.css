@@ -1,6 +1,5 @@
 body {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 900;
+  font-family: "Barlow Condensed", sans-serif;
   background: url("../images/rust-copy3.png") no-repeat center center fixed;
   background-size: cover;
   color: rgb(255, 255, 255);
@@ -42,18 +41,21 @@ body {
 
 h1 {
   font-size: 10vw;
-  text-shadow: -2px -2px 0 rgb(109, 100, 89);
+  font-weight: 100px;
+  text-shadow: -1px -1px 0 rgb(109, 100, 89);
 }
 
 .lead {
   font-size: 6vw;
-  margin-left: -4.25%;
-  text-shadow: -1.75px -1.75px 0 rgb(109, 100, 89);
+  text-shadow: -1px -1px 0 rgb(109, 100, 89);
   color: white;
+
+  font-family: "Rasa", serif;
+  font-weight: 300;
 }
 
 .contact {
-  margin-top: 10%;
+  margin-top: 15%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -63,28 +65,23 @@ h1 {
 i {
   font-size: 4vw;
   color: white;
-  text-shadow: -1px -1px 0 rgb(55, 50, 44);
+  text-shadow: -0.5px -0.5px 0 rgb(55, 50, 44);
 }
 
 p {
-  font-size: 4vw;
-  text-shadow: -0.75px -0.75px 0 rgb(55, 50, 44);
+  font-size: 2.5vw;
+  text-shadow: -0.5px -0.5px 0 rgb(55, 50, 44);
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+  /* For tablets: */
 
   .inner {
-    margin-top: 40%;
+    margin-top: 20%;
   }
 
   .contact {
-    margin-top: 27%;
-  }
-
-  i,
-  p {
-    font-size: 6vw;
+    margin-top: 10%;
   }
 }
 
@@ -92,19 +89,14 @@ p {
   /* For mobile phones: */
 
   .inner {
-    margin-top: 50%;
+    margin-top: 40%;
   }
 
   .contact {
-    margin-top: 27%;
+    margin-top: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: space-around;
-  }
-
-  i,
-  p {
-    font-size: 6vw;
   }
 }
