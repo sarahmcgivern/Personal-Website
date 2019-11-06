@@ -1,39 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Barlow Condensed", sans-serif;
   background: url("../images/rust-copy3.png") no-repeat center center fixed;
   background-size: cover;
   color: rgb(255, 255, 255);
 }
-
-/* h3 {
-  float: left;
-}
-
-.nav {
-  float: right;
-}
-
-.masthead-brand {
-  font-size: 30px;
-  margin: 0px;
-  margin-top: 5px;
-}
-
-.inner-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 20px;
-}
-
-.nav-link {
-  color: white;
-  font-size: 20px;
-}
-
-.nav-link:hover {
-  color: black;
-} */
 
 .inner {
   margin-top: 15%;
@@ -53,6 +27,56 @@ h1 {
   font-weight: 300;
 }
 
+a,
+a:hover {
+  color: gray;
+}
+
+.samples {
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  font-size: 2.5vh;
+}
+
+#search {
+  margin-top: 350px;
+}
+
+.work {
+  display: flex;
+  flex-direction: row;
+  border: black 1px;
+  justify-content: space-around;
+}
+
+.clip,
+.btn-primary {
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  background-color: gray;
+}
+
+#image {
+  width: 798px;
+  height: 600px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.modal-title {
+  color: gray;
+  font-size: 3vh;
+}
+
+iframe {
+  width: 798px !important;
+  height: 550px !important;
+  border: black;
+  text-align: center;
+}
+
 .contact {
   margin-top: 15%;
   display: flex;
@@ -67,7 +91,7 @@ i {
   text-shadow: -0.5px -0.5px 0 rgb(55, 50, 44);
 }
 
-p {
+.info {
   font-size: 3vw;
   text-shadow: -0.5px -0.5px 0 rgb(55, 50, 44);
 }
@@ -81,6 +105,35 @@ p {
 
   .contact {
     margin-top: 10%;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: column;
+    border: black 1px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #image {
+    width: auto;
+    height: 500px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #jsimage {
+    width: auto;
+    height: 500px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  iframe {
+    width: 498px !important;
+    height: auto;
+    border: black;
+    text-align: center;
   }
 }
 
@@ -97,5 +150,34 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: space-around;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: column;
+    border: black 1px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #image {
+    width: auto;
+    height: 500px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #jsimage {
+    width: auto;
+    height: 500px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  iframe {
+    width: 398px !important;
+    height: auto;
+    border: black;
+    text-align: center;
   }
 }

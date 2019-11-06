@@ -8,6 +8,7 @@
     />
 
     <title>Sarah McGivern</title>
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -60,22 +61,114 @@
   </head>
   <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <!-- <header class="masthead mb-auto">
-        <div class="inner-nav">
-          <h3 class="masthead-brand">SM <a href="index.html"></a></h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="about.html">About</a>
-            <a class="nav-link" href="work.html">Work</a>
-            <a class="nav-link" href="contact.html">Contact</a>
-          </nav>
-        </div>
-      </header> -->
+    
 
       <main role="main" class="inner cover">
         <h1 class="cover-heading">SARAH MCGIVERN</h1>
         <p class="lead">
           DESIGN | DEVELOP | DETROIT
         </p>
+        <button class="samples">
+          <a href="#search">
+            Sample work
+          </a>
+        </button>
+
+        <div class="search-smooth" id="search">
+          <div class="work">
+          
+            <div class="clip">
+              <img
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target=".bd-one-modal-lg"
+                src="./images/captivate.png"
+              />
+            </div>
+
+         
+            <div
+              class="modal fade bd-one-modal-lg"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="myLargeModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <p class="modal-title">
+                    Adobe Captivate Introductory Mock-Up
+                  </p>
+                  <p class="modal-title"> <a href= https://helpx.adobe.com/captivate/how-to/create-your-first-captivate-project.html target="_blank">See original tutorial</a></p>
+                  <iframe
+                    src="./Adobe Captivate: A step-by-step guide (Mock-Up)/index.html"
+                  >
+                  </iframe>
+                </div>
+              </div>
+            </div>
+
+        
+            <div class="clip">
+              <img
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target=".bd-second-modal-lg"
+                src="./images/flixmelarge.png"
+              />
+  
+            </div>
+
+            <div
+              class="modal fade bd-second-modal-lg"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="myLargeModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <p class="modal-title">Angular Final Project</p>
+                  <p class="modal-title"> <a href= https://github.com/sarahmcgivern/Movie-Database/tree/master/src target="_blank">See original source code</a></p>
+                  <img id="image" src="./images/flixmelarge.png" />
+                </div>
+              </div>
+            </div>
+
+      
+            <div class="clip">
+              <img
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target=".bd-third-modal-lg"
+                src="./images/JScafelarge.png"
+              />
+            </div>
+
+    
+            <div
+              class="modal fade bd-third-modal-lg"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="myLargeModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <p class="modal-title">
+                    Javascript Point of Sale Application
+                  </p>
+                  <p class="modal-title"> <a href= https://github.com/amandaduque/javascript_cafe target="_blank">See original source code</a></p>
+                  <img id="jsimage" src="./images/JScafelarge.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="contact">
           <a
             class="nav-link active"
@@ -101,8 +194,23 @@
             <i class="fas fa-envelope-square"></i
           ></a>
         </div>
-        <p>info@sarahmcgivern.com</p>
+        <p class="info">info@sarahmcgivern.com</p>
       </main>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
