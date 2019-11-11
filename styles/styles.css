@@ -59,10 +59,12 @@ a:hover {
 }
 
 #image {
-  width: 798px;
+  width: 700px;
   height: 600px;
-  text-align: center;
-  margin-top: 20px;
+  text-align: center !important;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  background-color: transparent;
 }
 
 .modal-title {
@@ -71,10 +73,12 @@ a:hover {
 }
 
 iframe {
-  width: 798px !important;
-  height: 550px !important;
+  width: 700px;
+  height: 600px;
+  text-align: center !important;
   border: black;
-  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 .contact {
